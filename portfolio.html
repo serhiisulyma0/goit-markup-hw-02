@@ -1,97 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./css/portfolio.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/portfolio.css" />
     <title>Портфолио</title>
-</head>
-<body>
-    <header>
-        <a href="./index.html"> WebStudio</a>
-        <ul>
-            <li>
-                <a href="index.html"> Студия </a>
-            </li>
-            <li>
-                <a href="portfolio.html"> Портфолио </a>
-            </li>
-            <li>
-                <a href="#contacts"> Контакты </a>
-            </li>
+  </head>
+  <body>
+    <!--HEADER-->
+    <header class="top-header">
+      <nav class="top-nav">
+        <a class="link logo" href="./index.html">
+          <span class="color-logo">Web</span>tudio</a
+        >
+        <ul class="menu list">
+          <li class="menu-item">
+            <a class="menu-link link" href="index.html">
+              <span class="stud-color">Студия</span>
+            </a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link link" href="portfolio.html"> Портфолио </a>
+          </li>
+          <li class="menu-item">
+            <a class="menu-link link" href="#contacts"> Контакты </a>
+          </li>
         </ul>
+      </nav>
 
-        <ul>
-            <li>
-                <a href="mailto:info@devstudio.com"> info@devstudio.com </a>
-            </li>
-        </ul>
-
-        <ul>
-            <li>
-                <a href="tel:+380991111111"> +38 099 111 11 11 </a>
-            </li>
-        </ul>
-</header>
-<main>
-            <button type="button" > Все </button>
-            <button type="button">Вэб-сайты</button>
-            <button type="button">Приложения</button>
-            <button type="button">Дизайн</button>
-            <button type="button">Маркетинг</button>
-    <ul>
+      <ul class="contacts list">
         <li>
-            <img src="./images/Portfolio/image_computers.png" alt="computers" width="370px" height="294px">
-            <h2>Технокряк</h2>
-            <p>Веб-сайт</p>
-        </li>
-        <li>
-            <img src="./images/Portfolio/image_basket.png" alt="basketball" width="370px" height="294px">
-            <h2>Постер New Orlean vs Golden Star</h2>
-            <p>Дизайн</p>
-        </li>
-        <li>
-            <img src="./images/Portfolio/image_seafood.png" alt="seafood" width="370px" height="294px">
-            <h2>Ресторан Seafood</h2>
-            <p>Приложение</p>
-        </li>
-        <li>
-            <img src="./images/Portfolio/image_wirrels.png" alt="Wirrelss" width="370px" height="294px">
-            <h2>Проект Prime</h2>
-            <p>Маркетинг</p>
-        </li>
-        <li>
-            <img src="./images/Portfolio/image_box.png" alt="boxes" width="370px" height="294px">
-            <h2>Проект Boxes</h2>
-            <p>Приложение</p>
-        </li>
-        <li>
-            <img src="./images/Portfolio/image_pc.png" alt="inspiration" width="370px" height="294px">
-            <h2>Inspiration has no Borders</h2>
-            <p>Веб-сайт</p>
-        </li>
-        <li>
-            <img src="./images/Portfolio/image_book.png" alt="books" width="370px" height="294px">
-            <h2>Издание Limited Edition</h2>
-            <p>Дизайн</p>
-        </li>
-        <li>
-            <img src="./images/Portfolio/image_labeltag.png" alt="lab el tag" width="370px" height="294px">
-            <h2>Проект LAB</h2>
-            <p>Маркетинг</p>
-        </li>
-        <li>
-            <img src="./images/Portfolio/image_laptop.png" alt="laptop" width="370px" height="294px">
-            <h2>Growing Business</h2>
-            <p>Приложение</p>
+          <a class="mail link" href="mailto:info@devstudio.com"
+            >info@devstudio.com
+          </a>
         </li>
 
-    </ul>    
-</main>
-</body>
+        <li>
+          <a class="tel link" href="tel:+380991111111">+38 099 111 11 11 </a>
+        </li>
+      </ul>
+    </header>
+    <main>
+      <!--Блок з кнопками та картинками-->
+      <section class="hero">
+        <button class="list button-hero" type="button">
+          <span class="button-all-color">Все</span>
+        </button>
+        <button class="list button-hero" type="button">Вэб-сайты</button>
+        <button class="list button-hero" type="button">Приложения</button>
+        <button class="list button-hero" type="button">Дизайн</button>
+        <button class="list button-hero" type="button">Маркетинг</button>
+        <ul class="list">
+          <li>
+            <img
+              src="./images/Portfolio/image_computers.png"
+              alt="computers"
+              width="370px"
+              height="294px"
+            />
+            <h2 class="hero-title-h2">Технокряк</h2>
+            <p class="hero-paragraf-p">Веб-сайт</p>
+          </li>
+          <li>
+            <img
+              src="./images/Portfolio/image_basket.png"
+              alt="basketball"
+              width="370px"
+              height="294px"
+            />
+            <h2 class="hero-title-h2">Постер New Orlean vs Golden Star</h2>
+            <p class="hero-paragraf-p">Дизайн</p>
+          </li>
+          <li>
+            <img
+              src="./images/Portfolio/image_seafood.png"
+              alt="seafood"
+              width="370px"
+              height="294px"
+            />
+            <h2 class="hero-title-h2">Ресторан Seafood</h2>
+            <p class="hero-paragraf-p">Приложение</p>
+          </li>
+          <li>
+            <img
+              src="./images/Portfolio/image_wirrels.png"
+              alt="Wirrelss"
+              width="370px"
+              height="294px"
+            />
+            <h2 class="hero-title-h2">Проект Prime</h2>
+            <p class="hero-paragraf-p">Маркетинг</p>
+          </li>
+          <li>
+            <img
+              src="./images/Portfolio/image_box.png"
+              alt="boxes"
+              width="370px"
+              height="294px"
+            />
+            <h2 class="hero-title-h2">Проект Boxes</h2>
+            <p class="hero-paragraf-p">Приложение</p>
+          </li>
+          <li>
+            <img
+              src="./images/Portfolio/image_pc.png"
+              alt="inspiration"
+              width="370px"
+              height="294px"
+            />
+            <h2 class="hero-title-h2">Inspiration has no Borders</h2>
+            <p class="hero-paragraf-p">Веб-сайт</p>
+          </li>
+          <li>
+            <img
+              src="./images/Portfolio/image_book.png"
+              alt="books"
+              width="370px"
+              height="294px"
+            />
+            <h2 class="hero-title-h2">Издание Limited Edition</h2>
+            <p class="hero-paragraf-p">Дизайн</p>
+          </li>
+          <li>
+            <img
+              src="./images/Portfolio/image_labeltag.png"
+              alt="lab el tag"
+              width="370px"
+              height="294px"
+            />
+            <h2 class="hero-title-h2">Проект LAB</h2>
+            <p class="hero-paragraf-p">Маркетинг</p>
+          </li>
+          <li>
+            <img
+              src="./images/Portfolio/image_laptop.png"
+              alt="laptop"
+              width="370px"
+              height="294px"
+            />
+            <h2 class="hero-title-h2">Growing Business</h2>
+            <p class="hero-paragraf-p">Приложение</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <!--Footer-->
+    <footer class="footer">
+      <a class="link logo-footer" href="index.html">
+        <span class="color-logo">Web</span>Studio</a
+      >
+
+      <address>
+        <a
+          class="link address-footer"
+          href="https://goo.gl/maps/cu6gR2nip6gFsMt37"
+        >
+          г. Киев, пр-т Леси Украинки, 26</a
+        >
+      </address>
+
+      <ul class="contacts list">
+        <li>
+          <a class="mail link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li>
+          <a class="tel link" href="tel:+380991111111">+38 099 111 1111</a>
+        </li>
+      </ul>
+    </footer>
+  </body>
 </html>
