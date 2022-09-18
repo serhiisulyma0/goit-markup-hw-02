@@ -1,6 +1,4 @@
-* {
-  max-width: 1600px;
-}
+
 
 .list {
   list-style: none;
@@ -48,11 +46,13 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
 }
-
-.menu-link:hover,
+.activ{
+color: #2196f3;
+}
+/*.menu-link:hover,
 .menu-link:focus {
   color: #2196f3;
-}
+}*/
 
 .contacts {
 }
@@ -95,8 +95,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  background: #f5f4fa;
-  border-radius: 4px;
+  
 }
 .button-hero:hover,
 .button-hero:focus {

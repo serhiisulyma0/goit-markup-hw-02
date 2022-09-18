@@ -1,6 +1,4 @@
-* {
-  max-width: 1600px;
-}
+
 .list {
   list-style: none;
 }
@@ -46,10 +44,13 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
 }
-.menu-link:hover,
-.menu-link:focus {
+.activ {
   color: #2196f3;
 }
+/*.menu-link:hover,
+.menu-link:focus {
+  color: #2196f3;
+}*/
 
 .contacts {
 }
@@ -101,10 +102,10 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+}
+.hero-button:hover{
+  background:#188CE8;
 }
 
 .description {
